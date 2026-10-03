@@ -16,7 +16,7 @@ Follow these steps in your terminal or command prompt to get up and running:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com
-cd YOUR_REPO_NAME
+cd SPATIAL-MOUSE
 ```
 
 ### 2. Set Up a Virtual Environment
@@ -48,7 +48,7 @@ pip install ultralytics opencv-python pyautogui
 ### 4. Run the Air Mouse
 Execute the script to start the spatial tracking engine. On its very first run, it will automatically pull down the micro-pose layout asset (approx. 2MB) into your local folder.
 ```bash
-python air_mouse.py
+python spatial_mouse.py
 ```
 
 ### Configuration & OS Permissions Note
